@@ -37,7 +37,7 @@ class HomePage extends StatelessWidget {
               }));
             }, 
             style: ButtonStyle(  
-              minimumSize: const MaterialStatePropertyAll(Size(300, 50)),
+              minimumSize: const MaterialStatePropertyAll(Size(325.0, 56.0)),
               shape: MaterialStatePropertyAll(RoundedRectangleBorder(borderRadius: BorderRadius.circular(30))),
             ),
             child: 

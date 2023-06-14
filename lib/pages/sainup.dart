@@ -70,10 +70,10 @@ class Sainup extends StatelessWidget {
               );
             }, 
             style: ButtonStyle(
-              minimumSize: const MaterialStatePropertyAll(Size(340, 50)),
+              minimumSize: const MaterialStatePropertyAll(Size(325.0, 56.0)),
               shape: MaterialStatePropertyAll(RoundedRectangleBorder(borderRadius: BorderRadius.circular(30))),
             ),
-            child: const Text('Sign Up')),
+            child: const Text('Sign Up', style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.w700),)),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
